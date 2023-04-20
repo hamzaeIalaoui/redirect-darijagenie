@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(302, {
-    'Location': 'http://20.74.117.191:3000/',
+    'Location': 'http://20.74.117.191:3000',
   });
   res.end();
 });
